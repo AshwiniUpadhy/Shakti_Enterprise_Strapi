@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "audio_visual_services",
+  "info": {
+    "singularName": "audio-visual-service",
+    "pluralName": "audio-visual-services",
+    "displayName": "Audio Visual Service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.table",
+        "shared.paragraph",
+        "shared.media",
+        "shared.content-component"
+      ]
+    }
+  }
+}

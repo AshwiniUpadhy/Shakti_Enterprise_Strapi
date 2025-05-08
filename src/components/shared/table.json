@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_tables",
+  "info": {
+    "displayName": "Table",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "row": {
+      "displayName": "Row",
+      "type": "component",
+      "repeatable": true,
+      "component": "table.row"
+    }
+  }
+}

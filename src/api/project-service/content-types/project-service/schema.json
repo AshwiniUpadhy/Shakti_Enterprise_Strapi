@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "project_services",
+  "info": {
+    "singularName": "project-service",
+    "pluralName": "project-services",
+    "displayName": "Project Service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.table",
+        "shared.paragraph",
+        "shared.media",
+        "shared.content-component"
+      ]
+    }
+  }
+}

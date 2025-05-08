@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dtp_services",
+  "info": {
+    "singularName": "dtp-service",
+    "pluralName": "dtp-services",
+    "displayName": "DTP Service",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.media",
+        "shared.table",
+        "shared.paragraph"
+      ]
+    }
+  }
+}

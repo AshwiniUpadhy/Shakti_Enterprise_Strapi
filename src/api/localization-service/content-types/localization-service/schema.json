@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "localization_services",
+  "info": {
+    "singularName": "localization-service",
+    "pluralName": "localization-services",
+    "displayName": "Localization Service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.table",
+        "shared.paragraph",
+        "shared.media",
+        "shared.content-component"
+      ]
+    }
+  }
+}

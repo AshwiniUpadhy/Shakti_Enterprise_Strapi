@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "content_writing_services",
+  "info": {
+    "singularName": "content-writing-service",
+    "pluralName": "content-writing-services",
+    "displayName": "Content Writing Service",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.table",
+        "shared.paragraph",
+        "shared.media",
+        "shared.content-component"
+      ]
+    }
+  }
+}

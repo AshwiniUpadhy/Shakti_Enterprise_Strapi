@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "banners",
+  "info": {
+    "singularName": "banner",
+    "pluralName": "banners",
+    "displayName": "All Services",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Media": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.media-block"
+    }
+  }
+}

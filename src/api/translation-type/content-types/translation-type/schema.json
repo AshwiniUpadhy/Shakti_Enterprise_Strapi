@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "translation_types",
+  "info": {
+    "singularName": "translation-type",
+    "pluralName": "translation-types",
+    "displayName": "TranslationType",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Media": {
+      "displayName": "ContentComponent",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.content-component"
+    }
+  }
+}

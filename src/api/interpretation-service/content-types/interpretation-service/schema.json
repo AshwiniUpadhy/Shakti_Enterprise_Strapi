@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "interpretation_services",
+  "info": {
+    "singularName": "interpretation-service",
+    "pluralName": "interpretation-services",
+    "displayName": "Interpretation Service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.table",
+        "shared.paragraph",
+        "shared.media",
+        "shared.content-component"
+      ]
+    }
+  }
+}

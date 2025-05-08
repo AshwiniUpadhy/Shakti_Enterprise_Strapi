@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "proof_reading_services",
+  "info": {
+    "singularName": "proof-reading-service",
+    "pluralName": "proof-reading-services",
+    "displayName": "Proof Reading Service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.table",
+        "shared.paragraph",
+        "shared.media",
+        "shared.content-component"
+      ]
+    }
+  }
+}

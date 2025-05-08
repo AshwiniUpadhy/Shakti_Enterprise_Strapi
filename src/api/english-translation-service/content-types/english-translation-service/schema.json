@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "english_translation_services",
+  "info": {
+    "singularName": "english-translation-service",
+    "pluralName": "english-translation-services",
+    "displayName": "English Translation service",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.table",
+        "shared.paragraph",
+        "shared.media"
+      ]
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

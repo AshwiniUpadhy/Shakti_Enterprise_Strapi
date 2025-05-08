@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "translation_services",
+  "info": {
+    "singularName": "translation-service",
+    "pluralName": "translation-services",
+    "displayName": "Translation Service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.table",
+        "shared.paragraph",
+        "shared.media",
+        "shared.content-component"
+      ]
+    }
+  }
+}

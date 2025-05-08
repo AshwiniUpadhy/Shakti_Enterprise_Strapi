@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_media_blocks",
+  "info": {
+    "displayName": "MediaBlock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
